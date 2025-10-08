@@ -8,15 +8,14 @@ Application météo moderne et interactive développée avec Vue.js 3, permettan
 
 ## Table des matières
 
-- [Fonctionnalités](#-fonctionnalités)
-- [Technologies utilisées](#-technologies-utilisées)
-- [Prérequis](#-prérequis)
-- [Installation](#-installation)
-- [Configuration](#-configuration)
-- [Utilisation](#-utilisation)
-- [Déploiement](#-déploiement)
-- [Structure du projet](#-structure-du-projet)
-- [API OpenWeather](#-api-openweather)
+- [Fonctionnalités](#fonctionnalités)
+- [Technologies utilisées](#technologies-utilisées)
+- [Prérequis](#prérequis)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Utilisation](#utilisation)
+- [Structure du projet](#structure-du-projet)
+- [API OpenWeather](#api-openweather)
 
 ## Fonctionnalités
 
@@ -87,8 +86,8 @@ Application météo moderne et interactive développée avec Vue.js 3, permettan
 ### 1. Cloner le dépôt
 
 ```bash
-git clone <votre-repo-url>
-cd Weather\ App
+git clone https://github.com/epoundor/Weather-App.git
+cd Weather-App
 ```
 
 ### 2. Installer les dépendances
