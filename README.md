@@ -211,11 +211,11 @@ Weather App/
 
 Ce projet a été développé dans le cadre d'un test technique. Les contributions ne sont pas acceptées pour le moment.
 
-## 📄 Licence
+## Licence
 
 Ce projet est développé à des fins éducatives et de démonstration.
 
-## 👨‍💻 Auteur
+## Auteur
 
 Développé avec ❤️ par [epoundor](https://github.com/epoundor)
 
