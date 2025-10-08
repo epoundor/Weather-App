@@ -200,13 +200,6 @@ Weather App/
 
 [OpenWeather API Documentation](https://openweathermap.org/api)
 
-## Notes importantes
-
-- **Clé API** : Assurez-vous que votre clé API OpenWeather est active (peut prendre quelques heures après création)
-- **localStorage** : Les favoris et l'historique sont stockés localement dans le navigateur
-- **Limites API** : Le plan gratuit OpenWeather a une limite de 60 appels/minute
-- **HTTPS** : Pour le déploiement en production, utilisez HTTPS pour éviter les problèmes CORS
-
 ## Contribution
 
 Ce projet a été développé dans le cadre d'un test technique. Les contributions ne sont pas acceptées pour le moment.
