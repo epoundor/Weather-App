@@ -182,7 +182,7 @@ Weather App/
 └── README.md            # Documentation
 ```
 
-##API OpenWeather
+## API OpenWeather
 
 ### Endpoints utilisés
 
