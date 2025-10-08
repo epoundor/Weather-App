@@ -149,37 +149,42 @@ pnpm build
 
 ```
 Weather App/
-├── public/              # Fichiers statiques
+├── env.d.ts
+├── index.html
+├── netlify.toml
+├── package.json
+├── pnpm-lock.yaml
+├── public
 │   └── favicon.ico
-├── src/
-│   ├── components/      # Composants Vue réutilisables
-│   │   ├── WeatherSearch.vue      # Barre de recherche
-│   │   ├── WeatherCard.vue        # Carte météo détaillée
-│   │   ├── FavoritesList.vue      # Liste des favoris
-│   │   └── WeatherDashboard.vue   # Dashboard avec stats
-│   ├── views/           # Pages/Vues de l'application
-│   │   ├── HomeView.vue           # Page d'accueil
-│   │   ├── WeatherView.vue        # Page de recherche météo
-│   │   └── DashboardView.vue      # Page dashboard
-│   ├── stores/          # Stores Pinia
-│   │   └── weatherStore.ts        # Store principal météo
-│   ├── services/        # Services API et localStorage
-│   │   ├── weatherApi.ts          # Service API OpenWeather
-│   │   └── localStorage.ts        # Gestion localStorage
-│   ├── types/           # Définitions TypeScript
-│   │   └── weather.ts             # Types météo
-│   ├── router/          # Configuration Vue Router
+├── README.md
+├── src
+│   ├── App.vue
+│   ├── components
+│   │   ├── FavoritesList.vue
+│   │   ├── WeatherCard.vue
+│   │   ├── WeatherDashboard.vue
+│   │   └── WeatherSearch.vue
+│   ├── main.ts
+│   ├── router
 │   │   └── index.ts
-│   ├── App.vue          # Composant racine
-│   ├── main.ts          # Point d'entrée
-│   └── style.css        # Styles globaux (TailwindCSS)
-├── .env.example         # Exemple de configuration
-├── index.html           # Template HTML
-├── package.json         # Dépendances
-├── tailwind.config.js   # Configuration Tailwind
-├── postcss.config.js    # Configuration PostCSS
-├── vite.config.ts       # Configuration Vite
-└── README.md            # Documentation
+│   ├── services
+│   │   ├── localStorage.ts
+│   │   └── weatherApi.ts
+│   ├── stores
+│   │   ├── counter.ts
+│   │   └── weatherStore.ts
+│   ├── style.css
+│   ├── types
+│   │   └── weather.ts
+│   └── views
+│       ├── DashboardView.vue
+│       ├── HomeView.vue
+│       └── WeatherView.vue
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
 ```
 
 ## API OpenWeather
